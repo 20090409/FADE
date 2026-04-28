@@ -13,7 +13,7 @@ from watermark.auto_watermark import AutoWatermark
 from evaluation.tools.text_editor import UPVGradientAttack
 from watermark.upv.network_model import UPVDetector
 
-device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # ==========================================
 # [区域 2] 模型定义 (保持不变，遵照用户要求)

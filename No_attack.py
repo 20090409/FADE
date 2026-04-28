@@ -8,7 +8,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer,LlamaForCausalLM,Ll
 from evaluation.tools.text_editor import TruncatePromptTextEditor
 from evaluation.tools.success_rate_calculator import FundamentalSuccessRateCalculator
 from evaluation.pipelines.detection import WatermarkedTextDetectionPipeline, UnWatermarkedTextDetectionPipeline, DetectionPipelineReturnType
-device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 
 def assess_detectability(algorithm_name, labels, rules, target_fpr):

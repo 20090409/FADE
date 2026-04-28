@@ -10,7 +10,7 @@ from evaluation.tools.text_editor import TruncatePromptTextEditor, SynonymSubsti
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 def assess_robustness():
     algorithm_name = 'UPV'

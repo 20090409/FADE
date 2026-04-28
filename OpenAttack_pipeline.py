@@ -38,7 +38,7 @@ from evaluation.tools.oracle import QualityOracle
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-device = 'cuda:1' if torch.cuda.is_available() else 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 # os.environ["CUDA_VISIBLE_DEVICES"] = ""
 # device='cpu'
 def assess_robustness():
