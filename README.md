@@ -4,14 +4,6 @@ FADE is a text watermark attack and evaluation project built upon [THU-BPM/MarkL
 
 ## Setup
 
-Create and activate a Python environment:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-```
-
 Install the main dependencies:
 
 ```bash
