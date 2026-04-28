@@ -80,7 +80,6 @@ python adversarial_finetune.py
 
 - If CUDA device errors occur, edit the `device` variable in the corresponding script.
 - If files are missing, update dataset, model, and checkpoint paths before running.
-- Exact dependency versions: [TBD]
 
 ## Acknowledgements
 
