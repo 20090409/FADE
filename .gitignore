@@ -176,15 +176,7 @@ cython_debug/
 .DS_Store
 watermark/XSIR/embedding/train_embeddings_10K.txt
 
-data/
-dataset/
 
-# 忽略根目录的模型权重和 HuggingFace 缓存
-model/
-huggingface/
-
-# 忽略特定算法目录下的模型文件夹
-watermark/upv/model/
 
 # 忽略所有常见的模型权重后缀 (防止未来误传)
 *.pt
