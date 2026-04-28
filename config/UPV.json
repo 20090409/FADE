@@ -1,0 +1,13 @@
+{
+    "algorithm_name": "UPV",
+    "gamma": 0.5,
+    "delta": 2.0,
+    "z_threshold": 1.0,
+    "prefix_length": 4,
+    "bit_number": 16,
+    "sigma": 0.01,
+    "default_top_k": 20,
+    "generator_model_name": "/mnt/user-data/fsb/projects/unforgeable_watermark/experiments/main_experiments/generator_model/combine_model.pt",
+    "detector_model_name": "./detectors/detector_gpt2_c4_topk_w5_1.pt",
+    "detect_mode": "network"
+}
